@@ -9,9 +9,20 @@ This project was inspired by the [Translate Toolkit](http://translate.sourceforg
 
 ## Usage
 
+### Node
+
     npm install gobbledygook
     $ node
     > require('gobbledygook')('Hello World!');
+    '¡pʅɹoＭ oʅʅǝH'
+
+### Bower
+
+    bower install gobbledygook
+
+Add to your page via a script include or via requirejs and test via your browser console.
+
+    console.log(window.Gobbledygook('Hellow World!'));
     '¡pʅɹoＭ oʅʅǝH'
 
 ## What's it do?
@@ -23,7 +34,7 @@ strings are properly substituted with translations.
 Our fake translation is a right-to-left, inverted representation of
 english.  It uses several unicode characters which resemble 180 degree
 rotated versions of their counterparts, and make it look like all the
-strings are upside down and backwards - you can still read it, but is 
+strings are upside down and backwards - you can still read it, but it
 is very clear what text is properly translated and what is not (suggesting
 an i18n bug).
 

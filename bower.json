@@ -1,0 +1,22 @@
+{
+  "name": "gobbledygook",
+  "main": "gobbledygook.js",
+  "version": "0.0.4",
+  "homepage": "https://github.com/lloyd/gobbledygook",
+  "authors": [
+    "Lloyd Hilaiel <lloyd@hilaiel.com> (http://lloyd.io)"
+  ],
+  "description": "A localization debugging tool that translates strings into legible gobbledygook.  In javascript.",
+  "keywords": [
+    "l10n",
+    "i18n"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "browser_test.html",
+    "node_modules",
+    "package.json",
+    "tests.js"
+  ]
+}
